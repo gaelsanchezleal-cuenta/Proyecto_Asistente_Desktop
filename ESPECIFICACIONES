@@ -27,3 +27,12 @@ Desbes decirle de la siguiente manera ---> Leal hazme un documento (tipo de docu
 
 AVISO: Este programa no copila ordenes de manera no escritas en el programa (clase: Ordenes)
 
+Requisito previo: Modelo de Voz Vosk
+
+Este proyecto requiere el modelo de reconocimiento de voz de **Vosk** para ejecutarse localmente.
+
+### Instrucciones de instalación:
+1. Descarga el modelo en español desde la página oficial de [Vosk Models](https://alphacephei.com/vosk/models).
+2. Descomprime el archivo `.zip`.
+3. Renombra la carpeta extraída como **`modelo-es`**.
+4. Coloca la carpeta `modelo-es` directamente en la raíz de este proyecto (`Proyecto_Asistente_Desktop/modelo-es`).
