@@ -1,0 +1,4 @@
+target/
+modelo-es/
+*.class
+.vscode/
