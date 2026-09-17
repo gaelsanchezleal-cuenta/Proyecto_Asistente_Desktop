@@ -46,14 +46,21 @@ public class Ordenes {
         String comandoVozSinAcentos = java.text.Normalizer.normalize(comandoOriginal, java.text.Normalizer.Form.NFD)
                 .replaceAll("\\p{M}", "");
 
-        // Palabra de activación: si no se menciona "leal" en la frase, se ignora
-        if (!comandoVozSinAcentos.contains("leal")) {
+        // Palabra de activación: si no se menciona "leal" o "real" o "lea" en la frase, se ignora
+        if (!comandoVozSinAcentos.contains("leal") && !comandoVozSinAcentos.contains("real")
+                && !comandoVozSinAcentos.contains("lea")) {
             return;
         }
 
         // Quitamos el nombre de ambas versiones para que no estorbe al comparar
-        comandoVoz = comandoVozSinAcentos.replace("leal", "").trim();
-        comandoOriginal = comandoOriginal.replace("leal", "").trim();
+        comandoVoz = comandoVozSinAcentos.replace("leal", "")
+                .replace("real", "")
+                .replace("eal", "")
+                .trim();
+        comandoOriginal = comandoOriginal.replace("leal", "")
+                .replace("real", "")
+                .replace("eal", "")
+                .trim();
 
         /*
                     PRUEBA
