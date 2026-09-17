@@ -1,0 +1,28 @@
+Este programa esta realizaado con el lenguaje de programacion Java.
+
+- APLICACIONES CON LAS QIE TRABAJA:
+Spotify
+Reloj
+Navegador
+
+- ACCIONES ADICIONALES:
+Pregunatrle cosas a gemini (debes proporcionar tu API).
+Realizar documentos basicos (pdf).
+Jugar con el volumen de tu dispositivo.
+
+- UTILIDAD: Puede realizar acciones en tu computadora al momento de escuchar una orden inicializada por: "Leal + orden".
+Ejemplos de estas:
+1. Leal abrir navegador
+2. Leal abrir spotify
+3. Leal baja el volumen (baja la acntidad de -10 a tu volumen actual)
+
+
+- PREGUNTALE A GEMINI:
+Debes pedircelo de la siguiente manera ---> Leal pregunta cuando fue la segunda guerra mundial.
+Este te comenzara a decir la informacion mediante la voz de windows hasta que termine de darte la informacion completa
+(puedes decirle  "Leal callate" para que este se detenga).
+
+- REALIZAR DOCUMENTO:
+Desbes decirle de la siguiente manera ---> Leal hazme un documento (tipo de documento) + tema
+
+AVISO: Este programa no copila ordenes de manera no escritas en el programa (clase: Ordenes)
