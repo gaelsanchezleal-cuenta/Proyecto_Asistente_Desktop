@@ -6,19 +6,19 @@ Reloj
 Navegador
 
 - ACCIONES ADICIONALES:
-Pregunatrle cosas a gemini (debes proporcionar tu API).
-Realizar documentos basicos (pdf).
-Jugar con el volumen de tu dispositivo.
+1. Preguntarle cosas a gemini (debes proporcionar tu API).
+2. Realizar documentos basicos (pdf,docs,etc).
+3. Jugar con el volumen de tu dispositivo.
 
 - UTILIDAD: Puede realizar acciones en tu computadora al momento de escuchar una orden inicializada por: "Leal + orden".
 Ejemplos de estas:
 1. Leal abrir navegador
 2. Leal abrir spotify
-3. Leal baja el volumen (baja la acntidad de -10 a tu volumen actual)
+3. Leal -/+ el volumen (trabaja con la acntidad de -/+20 a tu volumen actual)
 
 
 - PREGUNTALE A GEMINI:
-Debes pedircelo de la siguiente manera ---> Leal pregunta cuando fue la segunda guerra mundial.
+Debes pedircelo de la siguiente manera ---> Leal pregunta + cosa que deseas saber.
 Este te comenzara a decir la informacion mediante la voz de windows hasta que termine de darte la informacion completa
 (puedes decirle  "Leal callate" para que este se detenga).
 
@@ -27,12 +27,12 @@ Desbes decirle de la siguiente manera ---> Leal hazme un documento (tipo de docu
 
 AVISO: Este programa no copila ordenes de manera no escritas en el programa (clase: Ordenes)
 
-Requisito previo: Modelo de Voz Vosk
+- Requisito previo: Modelo de Voz Vosk
 
-Este proyecto requiere el modelo de reconocimiento de voz de **Vosk** para ejecutarse localmente.
+Este proyecto requiere el modelo de reconocimiento de voz de Vosk para ejecutarse localmente.
 
 ### Instrucciones de instalación:
 1. Descarga el modelo en español desde la página oficial de [Vosk Models](https://alphacephei.com/vosk/models).
-2. Descomprime el archivo `.zip`.
-3. Renombra la carpeta extraída como **`modelo-es`**.
-4. Coloca la carpeta `modelo-es` directamente en la raíz de este proyecto (`Proyecto_Asistente_Desktop/modelo-es`).
+2. Descomprime el archivo ".zip".
+3. Renombra la carpeta extraída como "modelo-es".
+4. Coloca la carpeta "modelo-es" directamente en la raíz de este proyecto (Proyecto_Asistente_Desktop/modelo-es).
