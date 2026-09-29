@@ -1,0 +1,5 @@
+target/
+modelo-es/
+*.class
+.vscode/
+src/main/resources/config.properties
